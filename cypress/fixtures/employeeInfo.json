@@ -1,0 +1,22 @@
+{
+    "EmployeeId": "1999",
+    "FirstName": "Hakoona1Sarahhhhhhhhhhhh",
+    "LastName": "Matata",
+    "MiddleName": "",
+    "FirstMiddleName": "Hakoona1 ",
+    "Status": "Full-Time Contract",
+    "JobTitle": "Chief Financial Officer",
+    "SubUnit": "Administration",
+    "Nationality": "Cuban",
+    "MaritalStatus": "Single",
+    "DayDate": "19",
+    "monthDate": "May",
+    "yearDate": "199",
+    "Gender": "Female",
+    "username": "Sarah1998",
+    "password": "sarah123",
+    "entitlement": "30",
+    "fromDate": "2023-01-01",
+    "leaveTypeId": 8,
+    "toDate": "2023-12-31"
+}
