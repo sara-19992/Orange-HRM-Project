@@ -6,4 +6,3 @@ allure-report
 package-lock.json
 package.json
 cypress.config.json
-addEmployee.ts
