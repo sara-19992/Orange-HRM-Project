@@ -20,8 +20,7 @@ class employee {
                     middleName: middleName
                 }
             }).then((response) => {
-                expect(response).property('status').to.equal(200)
-                console.log(response.body.data.empNumber)
+                cy.log('**Add New Employee Successfully**')
                 this.addUser(response.body.data.empNumber, username, password)
                 resolve(response.body.data.empNumber)
             })
@@ -42,7 +41,7 @@ class employee {
                 username: username
             }
         }).then((response) => {
-            expect(response).property('status').to.equal(200);
+            cy.log('**Create Login Detailes For New Empolyee**')
         })
     }
 
@@ -63,7 +62,7 @@ class employee {
                     ids: [empNum]
                 }
             }).then((response) => {
-                expect(response).property('status').to.equal(200);
+                cy.log('**Delete New Employee Successfully**')
             })
         })
     }

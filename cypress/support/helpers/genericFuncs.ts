@@ -21,3 +21,7 @@ export const typeInputField = (arr: inputFeild[]) => {
 export const uploadFile = (element: Cypress.Chainable<JQuery<HTMLElement>>, filePath: string) => {
   element.selectFile(filePath, { force: true });
 }
+
+export const getCurrentDate = () => {
+  return new Date().toJSON().slice(0, 10)
+}
